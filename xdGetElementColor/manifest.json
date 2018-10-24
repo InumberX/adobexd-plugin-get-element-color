@@ -1,0 +1,28 @@
+{
+  "name": "xdGetElementColor",
+  "id": "XD_GET_ELEMENT_COLOR",
+  "version":"1.0.0",
+  "description":"選択中の要素のカラーコードを取得するプラグインです。",
+  "icons":[
+    {
+      "width": 96,
+      "height": 96,
+      "path":"images/icon.png"
+    }
+  ],
+  "host":{
+    "app": "XD",
+    "minVersion":"13.0.0"
+  },
+  "uiEntryPoints":[
+    {
+      "type":"menu",
+      "label":"getElementColor",
+      "commandId":"getElementColor",
+      "shortcut": {
+        "mac": "Cmd+Shift+O",
+        "win": "Ctrl+Shift+O"
+      }
+    }
+  ]
+}
